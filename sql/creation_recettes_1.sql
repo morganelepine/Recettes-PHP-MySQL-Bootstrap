@@ -1,0 +1,3 @@
+insert into `recipes` (`author`, `is_enabled`, `recipe`, `recipe_id`, `title`) values ('Morgane Lépine Utter', 1, "2 cl. Amaretto \n2 cl. Liqueur de Coco \n3 cl. Rhum Blanc \n1 Trait Sirop de Fraise \n Jus d'Orange\n", 1, 'Europe 92');
+insert into `recipes` (`author`, `is_enabled`, `recipe`, `recipe_id`, `title`) values ('Morgane Lépine Utter', 1, "9 cl. Amaretto \n1,5 cl. Vodka (additionnée d'une pincée de cannelle \nJus de pommme, très frais, pour compléter\n", 2, 'Almond Apple Pie');
+insert into `recipes` (`author`, `is_enabled`, `recipe`, `recipe_id`, `title`) values ('Morgane Lépine Utter', 1, "6 cl. Rhum ambré \n4,5 cl. Rhum blanc \n3 cl. Jus d'ananas \n3 cl. Jus de pamplemousse \nGinger ale (Canady Dry) pour compléter\n", 3, 'Ginger Fire');
