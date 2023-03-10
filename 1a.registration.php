@@ -54,7 +54,7 @@
             echo "L'inscription a échoué : " . $connexion->error;
         } else {
             echo "Votre inscription est un succès " . $new_name . " ! ";
-            echo "<a class='btn btn-outline-danger btn-sm' href='1b.login.php'>Connectez-vous.</a>";
+            echo "<a class='btn btn-outline-danger btn-sm' href='index.php'>Connectez-vous.</a>";
         }
     }
     ?>
@@ -92,7 +92,7 @@
 
     <p>
         Vous avez déjà un compte ?
-        <a class="btn btn-outline-danger btn-sm" href='./1b.login.php'>Connectez-vous</a>
+        <a class="btn btn-outline-danger btn-sm" href='./index.php'>Connectez-vous</a>
     </p>
 
 </body>

@@ -15,7 +15,7 @@
   <?php if ($user_idactuel) { ?>
 
   <!-- "Logo" -->
-  <a class="navbar-brand text-uppercase px-2" href="./index.php" id="title">Mon site de
+  <a class="navbar-brand text-uppercase px-2" href="./3.index.php" id="title">Mon site de
     <span class="bg-danger bg-gradient p-1 rounded-3 text-light fw-bold">recettes</span>
   </a>
 
@@ -87,7 +87,7 @@
       </li>
       
       <li class="nav-item px-2">
-        <a class="nav-link active" href="./1b.login.php">Se connecter</a>
+        <a class="nav-link active" href="./index.php">Se connecter</a>
       </li>
 
   </ul>
