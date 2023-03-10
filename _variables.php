@@ -3,7 +3,7 @@
   $user_idactuel = isset ($_SESSION['connected_id']) ?  $_SESSION['connected_id'] : null;
 
   if ($user_idactuel) {
-    $connexion = new mysqli("localhost", "root", "root", "my_recipes");
+    include_once('connexion.php');
 
     $sqlUserQuery = "SELECT user_id, user_name, email FROM users WHERE user_id == $user_idactuel";
     $connectedUser = $connexion->query($sqlUserQuery)->fetch_all();

@@ -1,6 +1,6 @@
 <?php
     //Connexion à la base de données
-    $connexion = new mysqli("localhost", "root", "root", "my_recipes");
+    include_once('connexion.php');
 
     //Sortir la dernière recette
     $querySQL = "SELECT * FROM recipes ORDER BY id DESC LIMIT 1";

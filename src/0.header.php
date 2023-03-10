@@ -10,7 +10,7 @@
   <?php if ($user_idactuel) { ?>
 
   <!-- "Logo" -->
-  <a class="navbar-brand text-uppercase px-2" href="/3.index.php" id="title">Mon site de
+  <a class="navbar-brand text-uppercase px-2" href="/index.php" id="title">Mon site de
     <span class="bg-danger bg-gradient p-1 rounded-3 text-light fw-bold">recettes</span>
   </a>
 

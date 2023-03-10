@@ -3,7 +3,7 @@
 <?php
 
     //Connexion à la BDD
-    $connexion = new mysqli("localhost", "root", "root", "my_recipes");
+    include_once('connexion.php');
 
     
     //Vérifier si le bouton est cliqué

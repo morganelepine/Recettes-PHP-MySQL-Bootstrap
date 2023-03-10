@@ -33,7 +33,7 @@
         $passwdAVerifier = $_POST['mdp'];
 
         //Connexion à la base de donnée
-        $connexion = new mysqli("localhost", "root", "root", "my_recipes");
+        include_once('connexion.php');
 
         //Sécurité pour éviter les injection SQL
         $emailAVerifier = $connexion->real_escape_string($emailAVerifier);
@@ -57,7 +57,7 @@
             $user_id = $user['id'];
             $_SESSION['connected_id'] = $user_id;
             //Ouvrir l'accès à toutes les pages (redirection vers la page Index)
-            header("refresh:0;url=3.index.php");
+            header("refresh:0;url=index.php");
         }
     }
     ?>

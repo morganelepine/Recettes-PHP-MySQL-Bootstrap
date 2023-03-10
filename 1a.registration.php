@@ -34,7 +34,7 @@
         $new_password = $_POST['mdp'];
 
         //Connexion à la base de donnée
-        $connexion = new mysqli("localhost", "root", "root", "my_recipes");
+        include_once('connexion.php');
 
         //Sécurité pour éviter les injection SQL
         $new_name = $connexion->real_escape_string($new_name);

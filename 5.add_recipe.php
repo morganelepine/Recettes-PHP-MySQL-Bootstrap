@@ -24,7 +24,7 @@
 
     <?php
     //Connexion à la base de donnée
-    $connexion = new mysqli("localhost", "root", "root", "my_recipes");
+    include_once('connexion.php');
         
     // Si le formulaire est soumis :
     $enCoursDeTraitement = isset($_POST['submit']);
