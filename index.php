@@ -33,7 +33,7 @@
         $passwdAVerifier = $_POST['mdp'];
 
         //Connexion à la base de donnée
-        include_once('connexion.php');
+        include_once('_connexion.php');
 
         //Sécurité pour éviter les injection SQL
         $emailAVerifier = $connexion->real_escape_string($emailAVerifier);
@@ -88,7 +88,7 @@
 
     <p>
         Vous n'avez pas encore de compte ?
-        <a class="btn btn-outline-danger btn-sm" href='./1a.registration.php'>Inscrivez-vous</a>
+        <a class="btn btn-outline-danger btn-sm" href='./1.registration.php'>Inscrivez-vous</a>
     </p>
     
 </body>

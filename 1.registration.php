@@ -34,7 +34,7 @@
         $new_password = $_POST['mdp'];
 
         //Connexion à la base de donnée
-        include_once('connexion.php');
+        include_once('_connexion.php');
 
         //Sécurité pour éviter les injection SQL
         $new_name = $connexion->real_escape_string($new_name);
@@ -59,7 +59,7 @@
     }
     ?>
 
-    <form action="./1a.registration.php" method="post" class="container">
+    <form action="./1.registration.php" method="post" class="container">
         
         <input type='hidden' name='id' value='$new_email'>
         

@@ -56,7 +56,7 @@
   <!-- Déconnexion -->
   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     <li class="nav-item px-2">
-        <a class="nav-link active p-0" href="./1c.deconnexion.php">
+        <a class="nav-link active p-0" href="./2.deconnexion.php">
           <input type="image" name="deconnexion" src="images/turn_off.png" alt="Se déconnecter">
         </a>
     </li>
@@ -83,7 +83,7 @@
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       
       <li class="nav-item px-2">
-        <a class="nav-link active" href="./1a.registration.php">S'inscrire</a>
+        <a class="nav-link active" href="./1.registration.php">S'inscrire</a>
       </li>
       
       <li class="nav-item px-2">

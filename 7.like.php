@@ -3,7 +3,7 @@
 <?php
 
     //Connexion à la BDD
-    include_once('connexion.php');
+    include_once('_connexion.php');
 
     
     //Vérifier si le bouton est cliqué

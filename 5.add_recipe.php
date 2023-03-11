@@ -24,7 +24,7 @@
 
     <?php
     //Connexion à la base de donnée
-    include_once('connexion.php');
+    include_once('_connexion.php');
         
     // Si le formulaire est soumis :
     $enCoursDeTraitement = isset($_POST['submit']);

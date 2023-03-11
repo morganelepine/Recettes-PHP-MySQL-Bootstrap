@@ -1,6 +1,6 @@
 <?php
 //Connexion à la BDD
-include_once('connexion.php');
+include_once('_connexion.php');
     
 //Requête pour récupérer toutes les recettes classées par ordre d'ajout à la BDD
 $sqlQuery = "SELECT recipes.id as recipe_id,

@@ -21,7 +21,7 @@
 
     <?php
     //Connexion à la BDD
-    include_once('connexion.php');
+    include_once('_connexion.php');
 
     //Si le bouton de la barre de recherche est cliqué
     $search = isset($_GET["submit"]);
