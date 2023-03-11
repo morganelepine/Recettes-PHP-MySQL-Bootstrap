@@ -74,9 +74,9 @@
             //Exécution de la requete
             $connexionIsOk = $connexion->query($sqlQuery);
             if ($connexionIsOk && $deplacer) {
-                echo "<p class='pb-3'>Merci " . $user_name . ", ta recette '" . $new_recipe_name . "' a bien été ajoutée à la base de recettes ! </p>";
+                echo "<p class='pb-3'>Merci " . $user_name . ", votre recette '" . $new_recipe_name . "' a bien été ajoutée à la base de recettes ! </p>";
             } else {
-                echo "Ta recette n'a pas été ajoutée à la base de recettes : " . $connexion->error;
+                echo "Votre recette n'a pas été ajoutée à la base de recettes : " . $connexion->error;
             }
 
             include('8.tags.php');

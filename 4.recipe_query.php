@@ -36,7 +36,6 @@ if (! $query) {
 
 $tags_id_label = [];
 $tags_id_type = [];
-//nouvel array pour type
 $tagsFromDB = $query->fetch_all();
 foreach ($tagsFromDB as $tag) {
     $tags_id_label[$tag[0]] = $tag[1];

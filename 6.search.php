@@ -57,6 +57,8 @@
         if (! $searchQuery) {
             echo "Échec de la requete : " . $connexion->error;
         }
+        //if (!in_array($searchContent, $searchQuery)) {
+
     }
     ?>
 
@@ -87,7 +89,10 @@
                 ?>
 
                 <div class="d-flex flex-column align-content-between col-sm-3 rounded bg-light bg-opacity-75 m-3 p-3">
-                    <?php include('4.recipe.php'); ?>
+                    <?php
+                        //echo "Aucune recette ne contient le contenu de votre recherche.";
+                        include('4.recipe.php');
+                    ?>
                 </div>
             
                 <?php } //$searchQuery->closeCursor(); ?>
