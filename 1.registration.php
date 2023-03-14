@@ -66,21 +66,21 @@
         <div class="row justify-content-center">
             <div class="col-md-3 mb-1">
                 <label for='pseudo' class="pb-3">Pseudo</label>
-                <input type='text' name='pseudo' class="form-control mb-3">
+                <input type='text' name='pseudo' required="required" class="form-control mb-3">
             </div>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-md-3 mb-1">
                 <label for='email' class="pb-3">E-mail</label>
-                <input type='email' name='email' class="form-control mb-3">
+                <input type='email' name='email' required="required" class="form-control mb-3">
             </div>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-md-3 mb-1">
                 <label for='mdp' class="pb-3">Mot de passe</label>
-                <input type='password' name='mdp' class="form-control mb-3">
+                <input type='password' name='mdp' required="required" class="form-control mb-3">
             </div>
         </div>
 
